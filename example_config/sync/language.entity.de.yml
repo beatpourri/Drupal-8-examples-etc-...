@@ -1,0 +1,14 @@
+uuid: bf0fbb6a-7287-460d-989d-a07899a766f8
+langcode: de
+status: true
+dependencies:
+  module:
+    - language_fallback
+third_party_settings:
+  language_fallback:
+    fallback_langcode: en
+id: de
+label: German
+direction: ltr
+weight: 1
+locked: false
