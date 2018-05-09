@@ -112,14 +112,17 @@ $settings['rebuild_access'] = TRUE;
  * user pulling in the changes won't have permissions to modify files in the
  * directory.
  */
+$config['system.file']['path']['temporary'] = '/tmp';
+$settings['file_public_base_url'] = 'sites/default/files';
+$settings['file_public_path'] = 'sites/default/files';
+$settings['cache']['bins']['page'] = 'cache.backend.null';
+
 $settings['skip_permissions_hardening'] = TRUE;
 // <DATABASEDSETTINGS>
 
 // </DDATABASEDSETTINGS>
 
-
 // require_once DRUPAL_ROOT . '/modules/contrib/devel/kint/kint/Kint.class.php';
 // Kint::$maxLevels = 4;
-
 
 $settings['hash_salt'] = '9Tks2GjlSigMkwENm7LRVQMlyBipGgsXugH7ogLe_KJToa98LLBPnA7FiMtFqhBLr7Ybw8ieZw';
